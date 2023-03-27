@@ -27,7 +27,7 @@
 				</a>
 				<a
 					class="btn btn-md variant-ghost-surface"
-					href="/gallery"
+					href="/crypto"
 					rel="noreferrer"
 				>
 					Gallery
@@ -42,8 +42,8 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<!-- Page Route Content -->
 	<slot />
+	<!-- Page Route Content -->
 	<svelte:fragment slot="footer">
 
 	<div class="fixed bottom-0 left-0 w-full bg-surface-100-800-token p-4  border-gray-300 text-center">
@@ -53,4 +53,5 @@
   </div>
 		
 	</svelte:fragment>
+
 </AppShell>
