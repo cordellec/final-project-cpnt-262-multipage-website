@@ -3,7 +3,7 @@
 export const load = async ({ fetch }) => {
 
   // fetch must have `await` in front of it
-  const response = await fetch(`https://api.coinlore.net/api/tickers/?limit=10`);
+  const response = await fetch(`https://api.coinlore.net/api/tickers/?limit=12`);
 
   // `.json()` converts raw JSON to a regular JS object
   // `.json()` must also always have await in front of it

@@ -15,7 +15,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase"><img src="/images/currency-exchange-svgrepo-com.svg" alt="" class="text-white w-16 h-auto object-cover object-center"></strong>
+				<strong class="text-xl uppercase"><a href="/"><img src="/images/currency-exchange-svgrepo-com.svg" alt="" class="text-white w-16 h-auto object-cover object-center"></a></strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
@@ -23,14 +23,14 @@
 					href="/"
 					rel="noreferrer"
 				>
-					Home
+					Charts
 				</a>
 				<a
 					class="btn btn-md variant-ghost-surface"
 					href="/crypto"
 					rel="noreferrer"
 				>
-					Gallery
+					Crypto
 				</a>
 				<a
 					class="btn btn-md variant-ghost-surface"
@@ -42,8 +42,8 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<slot />
 	<!-- Page Route Content -->
+	<slot />
 	<svelte:fragment slot="footer">
 
 	<div class="fixed bottom-0 left-0 w-full bg-surface-100-800-token p-4  border-gray-300 text-center">
@@ -53,5 +53,5 @@
   </div>
 		
 	</svelte:fragment>
-
+	
 </AppShell>
