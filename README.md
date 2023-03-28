@@ -11,7 +11,9 @@ Vercel: https://final-project-cpnt-262-multipage-website.vercel.app/
  - https://nerdcave.com/tailwind-cheat-sheet (Tailwind Cheatsheet)
  - https://www.skeleton.dev/docs/get-started (Skeleton Docs)
  - https://www.chartjs.org/docs/latest/ (Chart Js Docs)
+ - https://www.youtube.com/watch?v=JvYK-X2Tf8E&t=1244s (Chart Js Video for Line Graphs)
  - https://cryptologos.cc/ (Crypto Logo's)
+ 
 
 
 ## Authors
