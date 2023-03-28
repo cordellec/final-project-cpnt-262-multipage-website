@@ -4,6 +4,7 @@
 
 <div class="grid grid-cols-6 gap-4 flex flex-col items-center justify-center min-w-0 p-8 ">
   {#each data.cryptoes as crypto}
+  <a href={`/crypto/${crypto.symbol}`} class="no-underline hover:underline">
   <div class="card-hover">
   <div class="card px-2 py-4 flex flex-col items-center">
       <div class="header flex items-center justify-center my-4">
@@ -42,6 +43,7 @@
       <h3>Price USD: {crypto.price_usd}</h3>
     </div>
     </div>
+  </a>
   {/each}
 </div>
 
