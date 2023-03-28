@@ -3,7 +3,7 @@
 export const load = async ({ fetch, params }) => {
 
   // fetch must have `await` in front of it
-  const response = await fetch(`https://api.coinlore.net/api/tickers/?limit=1&symbol=${params.name}`);
+  const response = await fetch(`https://api.coinlore.net/api/tickers/?limit=10&symbol=${params.name}`);
 
   // `.json()` converts raw JSON to a regular JS object
   // `.json()` must also always have await in front of it
@@ -12,6 +12,5 @@ export const load = async ({ fetch, params }) => {
   // return values must always be wrapped in a object
   return {
     cryptoes: cryptocurrency.data[0]
-
   }
 }

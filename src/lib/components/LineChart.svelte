@@ -4,15 +4,15 @@
 
   let canvas;
   let chart;
-  let selectedCurrency = "USD";
+  let selectedCurrency = "ETH";
   let amount = 444;
 
   const conversionRates = {
-    USD: 1.38,
-    JPY: 0.01,
-    YUAN: 0.20,
-    RUPEE: 0.017,
-    EURO: 1.46,
+    BTC: 210000,
+    ETH: 1700,
+    DOGE: 0.028,
+    ADA: 0.38,
+    DOT: 5.38,
   };
 
   function updateChart() {

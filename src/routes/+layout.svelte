@@ -15,7 +15,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase"><a href="/"><img src="/images/currency-exchange-svgrepo-com.svg" alt="" class="text-white w-16 h-auto object-cover object-center"></a></strong>
+				<strong class="text-xl uppercase pl-8"><a href="/"><img src="/images/currency-exchange-svgrepo-com.svg" alt="" class="text-white w-16 h-auto object-cover object-center"></a></strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
